@@ -1,0 +1,54 @@
+.Main {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    /* height:100px; */
+    margin-top: 20px;
+    margin-bottom:20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+
+.Card {
+    display: flex;
+    background: linear-gradient(90deg,#ffd74d,#40ddff 30%,#7c7fff 85%) 0 0/200% 100%;
+    flex-direction: column;
+    width: 100%;
+    color: #fff;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.Card img {
+    position: relative;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    border-radius: 10px;
+}
+
+.Card h3 {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    color: transparent;
+    transition: all 0.5s ease-in-out;
+}
+
+.Card h3:hover {
+    background: #fff;
+    color: #0c002b;
+}
+
+.instructions{
+    margin-top: 20px;
+}
